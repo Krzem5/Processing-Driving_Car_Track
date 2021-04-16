@@ -1,1 +1,3 @@
-start "" "projects/Processing-Driving_Car_Track/index/index.pde"
+@echo off
+cls
+python build.py %*
