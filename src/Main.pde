@@ -1,10 +1,13 @@
-Track track;
-void setup() {
-  size(800, 800);
-  track=new Track("track_data");
+Track t;
+
+
+
+void setup(){
+	size(800,800);
+	t=new Track("track_data");
 }
-void draw() {
-  background(0);
-  track.update();
-  track.draw();
+void draw(){
+	background(0);
+	t.update();
+	t.draw();
 }
